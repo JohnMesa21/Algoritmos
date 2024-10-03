@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family:"Montserrat";
+    background: url('../../static/images/background.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ff6600; /* Franja naranja */
+    width: 100%;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.header img {
+    max-width: 70px;
+    margin-right: 10px; /* Espacio entre el logo y el título */
+}
+
+.header h1 {
+    font-size: 24px;
+    color: white;
+}
+
+.header span {
+    color: #fff;
+}
+
+.form-container {
+    background-color: rgba(255, 255, 255, 0.623);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    margin-top: 20px; /* Espacio entre el formulario y el header */
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #ff6600;
+
+}
+
+form input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #ff6600;
+    color: white;
+    cursor: pointer;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.google-signin {
+    background-color: white;
+    border: 1px solid #ccc;
+    color: black;
+    margin-top: 20px;
+    width: 100%;
+}
+
+p {
+    font-size: 12px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+p a {
+    color: #ff6600;
+    text-decoration: none;
+}
